@@ -1,0 +1,14 @@
+# Dependencies and test output
+node_modules/
+test-results/
+playwright-report/
+npm-debug.log*
+
+# Local files and build output
+.env
+.env.*
+!.env.example
+dist/
+blob-report/
+playwright/.cache/
+*.tsbuildinfo

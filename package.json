@@ -1,0 +1,29 @@
+{
+  "name": "DemoQA-SelfAssessment",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript UI and API automation portfolio for DemoQA",
+  "scripts": {
+    "tests": "playwright test",
+    "tests:headed": "playwright test --headed",
+    "test:ui": "playwright test e2e/ui",
+    "test:ui:headed": "playwright test e2e/ui --headed",
+    "test:api": "playwright test e2e/api",
+    "test:api:headed": "playwright test e2e/api --headed",
+    "results": "playwright show-report",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}
